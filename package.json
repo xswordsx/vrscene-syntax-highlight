@@ -1,0 +1,25 @@
+{
+    "name": "vrscene-syntax-highlight",
+    "displayName": "vrscene syntax highlight",
+    "description": "Language support for Chaos' vrscene files.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "vrscene",
+            "aliases": ["vrscene", "vrscene"],
+            "extensions": [".vrscene"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "vrscene",
+            "scopeName": "source.vrscene",
+            "path": "./syntaxes/vrscene.tmLanguage"
+        }]
+    }
+}
