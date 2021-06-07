@@ -1,0 +1,7 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+access_token
+vsc-extension-quickstart.md
+*.vrscene
+syntaxes/*.json
