@@ -6,6 +6,9 @@
     "engines": {
         "vscode": "^1.0.0"
     },
+    "repository": {
+        "url": "https://github.com/xswordsx/vrscene-syntax-highlight"
+    },
     "publisher": "xswordsx",
     "license": "SEE LICENSE IN LICENSE",
     "categories": ["Programming Languages"],
